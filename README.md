@@ -92,3 +92,25 @@ URL: http://localhost:9411
 <br />
 Zipkin will display the trace history of each request, helping in identifying latency issues and bottlenecks in the system.
 
+#### Technologies Used
+* Java 11
+* Spring Boot
+* Spring Cloud Eureka
+* PostgreSQL
+* Docker
+* Zipkin (for distributed tracing)
+* Maven (for project build)
+* Docker Compose (for container orchestration)
+
+#### System Design
+##### Use Case Diagram
+The system is designed to handle job postings, manage company profiles, and allow users to submit reviews. Each microservice operates independently but communicates through Eureka.
+
+#### Architecture Diagram
+The architecture follows a microservices pattern with a central Eureka service for service discovery, Docker for deployment, and Zipkin for tracing requests.
+
+#### Future Improvements
+* Security Enhancements: Add OAuth2 or JWT-based authentication and authorization.
+* Load Balancing: Implement load balancing to handle increased traffic.
+* ElasticSearch Integration: Add ElasticSearch for more efficient search capabilities across job listings and reviews.
+

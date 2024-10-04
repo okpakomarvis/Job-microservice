@@ -28,3 +28,11 @@ This microservice-based architecture includes the following key components:
 * PostgreSQL database
 * Spring Boot and Spring Cloud Eureka
 * Zipkin Server for distributed tracing
+
+### Setup and Installation
+Step 1: Clone the Repository
+```bash
+git clone https://github.com/okpakomarvis/job-microservice.git
+cd job-microservice
+
+```

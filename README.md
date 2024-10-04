@@ -20,3 +20,11 @@ This microservice-based architecture includes the following key components:
 4. Service Registry (Eureka): Allows for service discovery among microservices.
 5. Zipkin: Provides observability by tracing requests across services.
 6. Docker: All microservices are packaged as Docker containers for portability and easy deployment.
+
+### Prerequisites
+* Java 11 or later
+* Maven for building the project
+* Docker for containerization
+* PostgreSQL database
+* Spring Boot and Spring Cloud Eureka
+* Zipkin Server for distributed tracing

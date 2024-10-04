@@ -1,3 +1,12 @@
 ## Job Microservice Application with Zipkin Tracing
 ### Overview
 This project implements a Job Microservice Architecture with three key microservices: Job Microservice, Company Microservice, and Review Microservice. These services interact through Spring Cloud Eureka for service discovery and are deployed using Docker containers. The system utilizes Zipkin for distributed tracing, providing enhanced observability and performance monitoring across microservices.
+
+### Features
+* Job Microservice: Manages job postings (CRUD operations).
+* Company Microservice: Handles company profiles and associations with job listings.
+* Review Microservice: Allows users to submit reviews for jobs and companies.
+* Service Discovery: Implemented using Eureka for dynamic registration and service discovery.
+* API Gateway: Centralized API gateway to route requests to respective services.
+* Distributed Tracing: Zipkin integrated for tracing request flows across the microservices.
+* Dockerized: All microservices are containerized using Docker for easier deployment.

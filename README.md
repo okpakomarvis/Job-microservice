@@ -10,3 +10,13 @@ This project implements a Job Microservice Architecture with three key microserv
 * API Gateway: Centralized API gateway to route requests to respective services.
 * Distributed Tracing: Zipkin integrated for tracing request flows across the microservices.
 * Dockerized: All microservices are containerized using Docker for easier deployment.
+
+### Architecture
+This microservice-based architecture includes the following key components:
+
+1. Job Microservice: Manages job-related operations such as creating and viewing job posts.
+2. Company Microservice: Responsible for managing company information.
+3. Review Microservice: Handles the submission and retrieval of reviews.
+4. Service Registry (Eureka): Allows for service discovery among microservices.
+5. Zipkin: Provides observability by tracing requests across services.
+6. Docker: All microservices are packaged as Docker containers for portability and easy deployment.
